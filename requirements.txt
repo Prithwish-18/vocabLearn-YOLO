@@ -1,12 +1,12 @@
 streamlit
+opencv-python-headless
 ultralytics
-torch  # For YOLOv8
+torch  
 easyocr
 google-cloud-translate
 google-api-python-client
 google-auth-httplib2
 google-auth-oauthlib
-opencv-python-headless  # Use headless to avoid GUI dependencies on the server
 Pillow
 numpy
 deep-translator
