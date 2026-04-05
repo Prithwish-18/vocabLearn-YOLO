@@ -70,9 +70,9 @@ elif input_method == "Capture from Camera":
 def load_model():
     # Check if the file exists locally
     # if not os.path.exists(MODEL_PATH):
-    st.info("Downloading model weights for the first time. This may take a minute...")
+    # st.info("Downloading model weights for the first time. This may take a minute...")
     urllib.request.urlretrieve(MODEL_URL, MODEL_PATH)
-    st.success("Model downloaded successfully!")
+    # st.success("Model downloaded successfully!")
         
     return YOLO(MODEL_PATH)
 
