@@ -1,14 +1,21 @@
 streamlit
-opencv-python-headless
+# Force CPU-only to stay under memory limits
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+torchvision
+
+# Computer Vision
 ultralytics
-torch  
 easyocr
+opencv-python-headless
+Pillow
+numpy
+pi-heif
+
+# Google & Document Tools
 google-cloud-translate
 google-api-python-client
 google-auth-httplib2
 google-auth-oauthlib
-Pillow
-numpy
 deep-translator
 python-docx
-pi-heif
